@@ -1,0 +1,39 @@
+# Python
+_pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.venv/
+env/
+venv/
+
+# Pyenv
+.python-version
+
+# VS Code
+.vscode/
+
+# ROS
+install/
+build/
+log/
+
+# Linux
+*.swp
+*~
+.DS_Store
+
+# I2C / device junk
+i2c-devices.txt
+
+# Secrets
+.env
+*.key
+*.pem
+
+# OS
+Thumbs.db
+_
