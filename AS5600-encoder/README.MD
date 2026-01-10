@@ -15,7 +15,7 @@ Read the angular position of an **AS5600 magnetic encoder** over I²C and displa
 | 3 | SDA (GPIO2) | SDA |
 | 5 | SCL (GPIO3) | SCL |
 | 9 | GND | GND |
-| Optional | Direction | DIR |
+| 39 | Direction | DIR |
 
 ---
 
