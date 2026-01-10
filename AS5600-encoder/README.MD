@@ -17,6 +17,8 @@ Read the angular position of an **AS5600 magnetic encoder** over I²C and displa
 | 9 | GND | GND |
 | Optional | Direction | DIR |
 
+---
+
 > [!CAUTION]
 > **Use 3.3V only** — do not connect to the 5V rail as it may damage the Raspberry Pi GPIO.
 
@@ -25,22 +27,31 @@ Read the angular position of an **AS5600 magnetic encoder** over I²C and displa
 ## Setup & Installation
 
 ### 1. Check I²C Connection
+
 Ensure I²C is enabled in `sudo raspi-config` and run:
 
 ```bash
-sudo i2cdetect -y 1 ```
+sudo i2cdetect -y 1
+```
 
 You should see the device at address **0x36**.
 
+---
+
 ### 2. Install Dependencies
+
 Install the required Python libraries using pip:
 
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
-## 3. Usage
+---
+
+### 3. Usage
 
 Once the hardware is connected and dependencies are installed, run the monitor script:
 
 ```bash
-python as5600_monitor.py```
+python as5600_monitor.py
+```
