@@ -1,4 +1,4 @@
-# AS5600 agnetic Encoder (Raspberry Pi)
+# AS5600 Magnetic Encoder (Raspberry Pi)
 
 Read the angular position of an **AS5600 magnetic encoder** over I²C and display it as a **live bar + degrees** in the terminal.
 
