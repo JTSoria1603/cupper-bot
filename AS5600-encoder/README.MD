@@ -53,5 +53,5 @@ pip install -r requirements.txt
 Once the hardware is connected and dependencies are installed, run the monitor script:
 
 ```bash
-python as5600_monitor.py
+python read_as5600.py
 ```
