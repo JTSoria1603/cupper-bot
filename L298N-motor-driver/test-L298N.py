@@ -164,7 +164,7 @@ def main():
             stop_all()
 
     print("""
-L298N Teleop Test (real-time, no Enter)
+L298N Teleop Test (real-time)
 --------------------------------------
 MAIN:
   W : forward
