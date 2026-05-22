@@ -1,5 +1,7 @@
+# =========================
 # Python
-_pycache__/
+# =========================
+__pycache__/
 *.pyc
 *.pyo
 *.pyd
@@ -13,27 +15,80 @@ venv/
 # Pyenv
 .python-version
 
-# VS Code
-.vscode/
+# =========================
+# ESP-IDF
+# =========================
+sdkconfig
+sdkconfig.old
+build/
+managed_components/
+dependencies.lock
 
+# ESP-IDF temporary files
+*.bin
+*.elf
+*.map
+
+# Serial monitor logs
+*.log
+
+# =========================
+# C / C++
+# =========================
+*.o
+*.a
+*.so
+
+# =========================
 # ROS
+# =========================
 install/
 build/
 log/
 
-# Linux
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# JetBrains / CLion
+# =========================
+.idea/
+cmake-build-*/
+
+# =========================
+# Linux / OS
+# =========================
 *.swp
 *~
 .DS_Store
+Thumbs.db
 
-# I2C / device junk
+# =========================
+# Device junk
+# =========================
 i2c-devices.txt
 
+# =========================
 # Secrets
+# =========================
 .env
 *.key
 *.pem
 
-# OS
-Thumbs.db
-_
+# WiFi credentials
+wifi_credentials.h
+
+# =========================
+# Temporary
+# =========================
+tmp/
+temp/
+.cache/
+
+# =========================
+# Core dumps
+# =========================
+core
+*.core
