@@ -92,10 +92,9 @@ void app_main(void)
 
 ## Pin Out
 
-> Add a wiring diagram photo here showing the connections between the ESP32 and the motor drivers.
+> ESP32-S3 DevKitC-1 pin layout reference.
 
-<!-- Replace the line below with the actual image when available -->
-![Pin Out](../../images/pinout_motor_controller.png)
+![Pin Out](../../images/ESP32-S3_DevKitC-1_pinlayout_v1.1.jpg)
 
 ### Quick Pin Reference
 
